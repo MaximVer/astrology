@@ -12,7 +12,7 @@ const Course = (props) => {
             { props.course ? (
                 <Card >
                     <CardMedia style={{height: 0, paddingTop: '56.25%'}}
-                               image={props.course.fields.courseImage.fields.file.url}
+                               image={props.course.fields.image.fields.file.url}
                                title={props.course.fields.title}
                     />
                     <CardContent>
