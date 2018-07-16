@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import BlogPost from './BlogPost';
 import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
 import * as contentful from 'contentful'
@@ -33,6 +34,7 @@ class BlogsList extends Component {
                 console.error(error)
             })
     }
+
     onSearchInputChange = (event) => {
         console.log("Search changed ..." + event.target.value)
         if (event.target.value) {
@@ -40,7 +42,7 @@ class BlogsList extends Component {
         } else {
             this.setState({searchString: ''})
         }
-        this.getCourses()
+        this.getBlogPosts()
     }
 
     render() {
@@ -56,6 +58,15 @@ class BlogsList extends Component {
                                 margin="normal"
                                 onChange={this.onSearchInputChange}
                             />
+                            <Grid container spacing={24} style={{padding: 24}}>
+                                {
+                                    this.state.blogPosts.map((currentBlog) => (
+                                        <Grid item xs={12} sm={6} lg={4} xl={3} >
+                                            <BlogPost blogPost={currentBlog} />
+                                        </Grid>
+                                    ))
+                                }
+                            </Grid>
                         </div>
                     ) : "No blog posts today..."
                 }
