@@ -33,11 +33,32 @@ class BlogsList extends Component {
                 console.error(error)
             })
     }
+    onSearchInputChange = (event) => {
+        console.log("Search changed ..." + event.target.value)
+        if (event.target.value) {
+            this.setState({searchString: event.target.value})
+        } else {
+            this.setState({searchString: ''})
+        }
+        this.getCourses()
+    }
 
     render() {
         return(
             <div>
-                <p>Yo</p>
+                {
+                    this.state.blogPosts ? (
+                        <div>
+                            <TextField
+                                style={{padding: 24}}
+                                id="searchInput"
+                                placeholder="Search for posts"
+                                margin="normal"
+                                onChange={this.onSearchInputChange}
+                            />
+                        </div>
+                    ) : "No blog posts today..."
+                }
             </div>
         )
     }
