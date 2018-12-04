@@ -5,17 +5,18 @@ import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
-const Course = (props) => {
-    console.log(props)
+
+const PersonalInfo = (props) => {
+    console.log(props);
     return(
-        <div>
+        <div style={{height: '100%'}}>
             { props.course ? (
-                <Card >
+                <Card style={{height: '100%', position: 'relative'}}>
                     <CardMedia style={{height: 0, paddingTop: '56.25%'}}
                                image={props.course.fields.image.fields.file.url}
                                title={props.course.fields.title}
                     />
-                    <CardContent>
+                    <CardContent style={{paddingBottom: '12%'}}>
                         <Typography gutterBottom variant="headline" component="h2">
                             {props.course.fields.title}
                         </Typography>
@@ -23,7 +24,7 @@ const Course = (props) => {
                             {props.course.fields.description}
                         </Typography>
                     </CardContent>
-                    <CardActions>
+                    <CardActions style={{position: 'absolute', bottom: '0px'}}>
                         <Button size="small" color="primary" href={props.course.fields.url} target="_blank">
                             Go To Course
                         </Button>
@@ -32,5 +33,5 @@ const Course = (props) => {
             ) : null}
         </div>
     )
-}
-export default Course
+};
+export default PersonalInfo
