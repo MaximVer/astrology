@@ -1,13 +1,13 @@
 {
-  "main.css": "/astrology/static/css/main.0e244aa1.chunk.css",
-  "main.js": "/astrology/static/js/main.38813d86.chunk.js",
-  "main.js.map": "/astrology/static/js/main.38813d86.chunk.js.map",
-  "static/js/1.34c00aaf.chunk.js": "/astrology/static/js/1.34c00aaf.chunk.js",
-  "static/js/1.34c00aaf.chunk.js.map": "/astrology/static/js/1.34c00aaf.chunk.js.map",
+  "main.css": "/astrology/static/css/main.c6554930.chunk.css",
+  "main.js": "/astrology/static/js/main.8ed6393b.chunk.js",
+  "main.js.map": "/astrology/static/js/main.8ed6393b.chunk.js.map",
+  "static/js/1.cfe43d7f.chunk.js": "/astrology/static/js/1.cfe43d7f.chunk.js",
+  "static/js/1.cfe43d7f.chunk.js.map": "/astrology/static/js/1.cfe43d7f.chunk.js.map",
   "runtime~main.js": "/astrology/static/js/runtime~main.6d8c7801.js",
   "runtime~main.js.map": "/astrology/static/js/runtime~main.6d8c7801.js.map",
-  "static/css/main.0e244aa1.chunk.css.map": "/astrology/static/css/main.0e244aa1.chunk.css.map",
+  "static/css/main.c6554930.chunk.css.map": "/astrology/static/css/main.c6554930.chunk.css.map",
   "index.html": "/astrology/index.html",
-  "precache-manifest.f6e5ba3564c59689df757cfc18094883.js": "/astrology/precache-manifest.f6e5ba3564c59689df757cfc18094883.js",
+  "precache-manifest.dc40b5df01b2461f4ebd3a5cc99749bb.js": "/astrology/precache-manifest.dc40b5df01b2461f4ebd3a5cc99749bb.js",
   "service-worker.js": "/astrology/service-worker.js"
 }
