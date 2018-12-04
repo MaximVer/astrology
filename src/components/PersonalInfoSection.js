@@ -6,8 +6,8 @@ import PersonalInfoList from "./PersonalInfoList";
 
 const PersonalInfoSection = () => {
     return (
-        <div style={styles.paper}>
-            <Paper style={styles.paper}>
+        <div style={styles.root}>
+            <Paper elevation={24} style={styles.paper}>
                 <PersonalInfoList/>
             </Paper>
         </div>
@@ -15,6 +15,10 @@ const PersonalInfoSection = () => {
 };
 
 const styles = {
+    root: {
+        padding: 20,
+        backgroundColor: "#bbc0e5"
+    },
     paper: {
         padding: 20
     }

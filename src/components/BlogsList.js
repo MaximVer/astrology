@@ -45,7 +45,7 @@ class BlogsList extends Component {
 
     render() {
         return(
-            <div>
+            <div style={styles.root}>
                 {
                     this.state.blogPosts ? (
                         <div>
@@ -72,5 +72,11 @@ class BlogsList extends Component {
         )
     }
 }
+
+const styles = {
+    root: {
+        backgroundColor: "#eec19d"
+    }
+};
 
 export default BlogsList;

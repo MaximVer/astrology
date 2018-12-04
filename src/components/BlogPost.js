@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import { withStyles } from '@material-ui/core/styles';
+import React from 'react';
+import {withStyles} from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
@@ -23,7 +23,7 @@ const BlogPost = (props) => {
         <div>
             {
                 props.blogPost ? (
-                    <Card>
+                    <Card raised={true}>
                         <CardMedia style={{height: 0, paddingTop: '56.25%'}}
                                    image={props.blogPost.fields.image.fields.file.url}
                                    title={props.blogPost.fields.title} />
@@ -48,6 +48,6 @@ const BlogPost = (props) => {
             }
         </div>
     );
-}
+};
 
 export default withStyles(styles)(BlogPost);
