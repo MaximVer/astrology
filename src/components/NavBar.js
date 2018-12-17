@@ -10,7 +10,7 @@ const NavBar = () => {
             <AppBar position="static">
                 <Toolbar>
                     <Typography variant="title" color="inherit" style={styles.exp}>
-                        Елена Вершинина
+                        Астролог Елена Вершинина
                     </Typography>
                     {/*<Button color="inherit" style={styles.button}>Login</Button>*/}
                     {/*<div style={styles.exp}>*/}
