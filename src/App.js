@@ -5,6 +5,7 @@ import BlogsList from "./components/BlogsList";
 import HeroBanner from "./components/HeroBanner";
 import PersonalInfo from "./components/PersonalInfoSection";
 import ParallaxBanner from "./components/ParallaxBanner";
+import QA from "./components/QA";
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
             <PersonalInfo/>
             <ParallaxBanner/>
             <BlogsList />
+            <QA/>
         </div>
 
     );

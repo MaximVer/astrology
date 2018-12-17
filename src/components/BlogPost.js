@@ -18,7 +18,6 @@ const styles = {
 };
 
 const BlogPost = (props) => {
-    console.log(props);
     return(
         <div>
             {
