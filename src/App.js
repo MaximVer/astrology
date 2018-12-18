@@ -15,8 +15,8 @@ class App extends Component {
             <HeroBanner/>
             <PersonalInfo/>
             <ParallaxBanner/>
-            <BlogsList />
             <QA/>
+            <BlogsList />
         </div>
 
     );
