@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "21339150e5199435fd59",
+    "revision": "f8ae930816cdf8af3c4c",
     "url": "/astrology/static/css/main.3bd185d4.chunk.css"
   },
   {
-    "revision": "21339150e5199435fd59",
-    "url": "/astrology/static/js/main.21339150.chunk.js"
+    "revision": "f8ae930816cdf8af3c4c",
+    "url": "/astrology/static/js/main.f8ae9308.chunk.js"
   },
   {
     "revision": "da1a2f57c5d563e04b5e",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/astrology/static/js/runtime~main.6d8c7801.js"
   },
   {
-    "revision": "d1cf71f03fd6f2ac6829ae71ec5cbd39",
+    "revision": "24aa3731f0ca0454b943e7f425f8663d",
     "url": "/astrology/index.html"
   }
 ];
