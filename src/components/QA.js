@@ -53,7 +53,7 @@ class QA extends Component {
                 <TextField
                     style={{padding: 24}}
                     id="searchInput"
-                    placeholder="Поиск поста..."
+                    placeholder="Поиск вопроса или ответа..."
                     margin="normal"
                     onChange={this.onSearchInputChange}
                 />
