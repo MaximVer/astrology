@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/astrology/static/js/runtime~main.6d8c7801.js"
   },
   {
-    "revision": "d0601c637cd273ffbe7f3b3a65306769",
+    "revision": "b24e2db1a16696f7086d21efff189e10",
     "url": "/astrology/index.html"
   }
 ];

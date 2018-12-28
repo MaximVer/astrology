@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/astrology/precache-manifest.c4cf0dce4073890996e1d2b71726c391.js"
+  "/astrology/precache-manifest.f81a02d0f5bd50de80b8afa77323963e.js"
 );
 
 workbox.clientsClaim();
