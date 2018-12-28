@@ -8,6 +8,6 @@
   "runtime~main.js.map": "/astrology/static/js/runtime~main.6d8c7801.js.map",
   "static/css/main.3bd185d4.chunk.css.map": "/astrology/static/css/main.3bd185d4.chunk.css.map",
   "index.html": "/astrology/index.html",
-  "precache-manifest.f81a02d0f5bd50de80b8afa77323963e.js": "/astrology/precache-manifest.f81a02d0f5bd50de80b8afa77323963e.js",
+  "precache-manifest.d2eece474bb89f9812d42141e29769a8.js": "/astrology/precache-manifest.d2eece474bb89f9812d42141e29769a8.js",
   "service-worker.js": "/astrology/service-worker.js"
 }
