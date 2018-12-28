@@ -3,6 +3,7 @@ import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import withStyles from "@material-ui/core/es/styles/withStyles";
+import ContactForm from "./ContactForm";
 
 const NavBar = () => {
     return(
@@ -13,9 +14,11 @@ const NavBar = () => {
                         Астролог Елена Вершинина
                     </Typography>
                     {/*<Button color="inherit" style={styles.button}>Login</Button>*/}
-                    {/*<div style={styles.exp}>*/}
+                    <div style={styles.contactForm}>
+                        <ContactForm/>
+                    </div>
 
-                    {/*</div>*/}
+
                 </Toolbar>
             </AppBar>
         </div>
@@ -30,7 +33,11 @@ const styles = {
     exp: {
         position: 'relative',
         left: '10%',
-    }
+    },
+    contactForm: {
+        position: 'relative',
+        left: '30%',
+    },
 };
 export default withStyles(styles)(NavBar);
 // import React from 'react';
