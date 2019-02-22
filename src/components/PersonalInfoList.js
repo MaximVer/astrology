@@ -37,20 +37,20 @@ class PersonalInfoList extends Component {
     render() {
         return (
             <div>
-                { this.state.courses ? (
+                {this.state.courses ? (
                     <div>
                         <Grid container spacing={24}
                               justify='space-between'
                               direction='row'
                               alignItems='stretch'>
-                            { this.state.courses.map(currentCourse => (
+                            {this.state.courses.map(currentCourse => (
                                 <Grid item xs={12} sm={6} lg={4} xl={3}>
                                     <PersonalInfo course={currentCourse}/>
                                 </Grid>
                             ))}
                         </Grid>
                     </div>
-                ) : "No courses found" }
+                ) : "No courses found"}
             </div>
         )
     }

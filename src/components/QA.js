@@ -51,9 +51,9 @@ class QA extends Component {
         return (
             <div style={styles.root}>
                 <TextField
-                    style={{padding: 24}}
+                    style={{padding: "1em"}}
                     id="searchInput"
-                    placeholder="Поиск вопроса или ответа..."
+                    placeholder="Поиск"
                     margin="normal"
                     onChange={this.onSearchInputChange}
                 />
@@ -62,7 +62,7 @@ class QA extends Component {
                         <div>
                             {
                                 this.state.qa.map((qa) => (
-                                    <ExpansionPanel>
+                                    <ExpansionPanel key={qa.sys.id}>
                                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon/>}>
                                             <Typography>{qa.fields.title}</Typography>
                                         </ExpansionPanelSummary>

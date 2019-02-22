@@ -1,16 +1,17 @@
 import React from 'react';
 import LazyHero from 'react-lazy-hero';
+import HeroImage from '../assets/img/second-hero-paral-moon.jpg'
 
 const ParallaxBanner = () => {
     return (
         <div>
-            <LazyHero imageSrc="http://www.suprabhata.net/wp-content/uploads/2015/01/astrology.jpg"
+            <LazyHero imageSrc={HeroImage}
                       parallaxOffset={-100}
                       color="#AECBEE"
                       opacity={0.3}
                       minHeight="25vh"
                       isFixed={true}>
-                <h1>Астро блог</h1>
+                <h1>Часто задаваемые вопросы</h1>
             </LazyHero>
         </div>
     );

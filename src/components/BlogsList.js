@@ -56,7 +56,7 @@ class BlogsList extends Component {
                                 margin="normal"
                                 onChange={this.onSearchInputChange}
                             />
-                            <Grid container spacing={24} style={{padding: 24}}>
+                            <Grid container spacing={24}>
                                 {
                                     this.state.blogPosts.map((currentBlog) => (
                                         <Grid item xs={12} sm={6} lg={4} xl={3} >
@@ -75,7 +75,8 @@ class BlogsList extends Component {
 
 const styles = {
     root: {
-        backgroundColor: "#eec19d"
+        backgroundColor: "#a0c1ee",
+        padding: "10px"
     }
 };
 
